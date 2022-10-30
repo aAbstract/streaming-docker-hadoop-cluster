@@ -2,7 +2,6 @@
 
 import sys
 gender_dict = {}
-gender_count, gender_sum = 0, 0
 for line in sys.stdin:
     line = line.strip()
     gender, count, age = line.split( '\t' )

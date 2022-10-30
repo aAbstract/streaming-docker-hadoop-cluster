@@ -19,7 +19,7 @@ docker exec -it hadoop_cluster-namenode-1 /bin/bash
 ## Run Example Hadoop Job
 ```
 # copy files into docker hadoop namenode
-docker cp -r ./example_hadoop_job/ hadoop_cluster-namenode-1:/tmp/
+docker cp ./example_hadoop_job/ hadoop_cluster-namenode-1:/tmp/
 
 # access hadoop namenode shell
 docker exec -it hadoop_cluster-namenode-1 /bin/bash
